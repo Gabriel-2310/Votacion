@@ -1,0 +1,21 @@
+p{
+    font-family: sans-serif;
+}
+
+#Letra{
+    font-family: sans-serif
+}
+
+#Titulo{
+    text-align: center; 
+    font-family: sans-serif; 
+    size: B5;
+}
+
+#Tabla{
+    border-width: medium;
+    text-align: center;
+    align-self: center;
+    font-family: sans-serif;
+}
+
