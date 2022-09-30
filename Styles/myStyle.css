@@ -30,21 +30,59 @@ p{
     size: B5;
 }
 
-#Tabla{
+#Tablapie{
+    width: 100%;
     border-width: medium;
     text-align: center;
     align-self: center;
     font-family: sans-serif;
+    background-color: aliceblue;
+ 
+    
 }
-#Cabeza
+
+
+#Cabeza:hover
 {
     border-radius: 30px;
     box-shadow: 10px 5px 5px rgb(218, 208, 208);
     text-align: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:columns;
+    transform: translate(0,10%);
+    transition: 0.1s;   
         
+}
+#Cabeza
+{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    right: 0;
+
+}
+#logopie:hover
+{
+    transform: translate(0,10%);
+    transition: 0.1s;
+    width: 200px;    
+}
+#twitter:hover
+{
+    width: 50px;
+}
+#face:hover
+{
+    width: 50px;
+}
+#youtube:hover
+{
+    width: 50px;
+}
+#instagram:hover
+{
+    width: 50px;
 }
 
 #cuerpo
