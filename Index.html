@@ -8,8 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Styles/myStyle.css">
     <link rel="stylesheet" type="text/css" href="./Styles/index.css">
+    <link rel="stylesheet" href="../Votacion/bootstrap-5.2.1-dist/css/bootstrap.min.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Resource/Fajardo/Sergio_fajardo_T.jpg">
     <title>Votaciones</title>
 </head>
+<style>
+    #grafica {
+        width: 300px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #estadistica {
+        width: 300px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 520px;
+        align-content: center;
+        margin-top: -500px;
+        text-align: center;
+        
+    }
+
+    #ganador {
+        width: 400px;
+    }
+</style>
 
 <body>
     <header>
@@ -64,6 +92,9 @@
                 </p>
                 <a class="ico" target="_blank" href="./PetroReto2/PetroCSS.html"><img
                         src="./Resource/Petro/Pacto_Histórico.png" width="100"></a>
+                <br>
+                <input id="votar" class="btn btn-primary" type="button" value="Votar" onclick="javascrip:voto(0);">
+                
             </figure>
             <figure class="r">
                 <img class="imgTarjetonCand" src="./Resource/Rodolfo/Rodolfo_hernandez_T.jpg" width="300"> <br>
@@ -76,6 +107,8 @@
                 </p>
                 <a class="ico" target="_blank" href="./Candidatos/Hernandez.html"> <img
                         src="./Resource/Rodolfo/Liga_anticorrupcion.png" width="100"></a>
+                <br>
+                <input id="votar" class="btn btn-primary" type="button" value="Votar" onclick="javascrip:voto(1);">
             </figure>
         </section>
         <section class="can-2">
@@ -94,6 +127,8 @@
                 </p>
                 <a class="ico" target="_blank" href="./Candidatos/Federico.html"><img
                         src="./Resource/Federico/Creemos_Colombia.png" width="100"></a>
+                <br>
+                <input id="votar" class="btn btn-primary" type="button" value="Votar" onclick="javascrip:voto(2);">
             </figure>
             <figure class="se">
                 <img class="imgTarjetonCand" src="./Resource/Fajardo/Sergio_fajardo_T.jpg" width="300"> <br>
@@ -107,9 +142,30 @@
                 </p>
                 <a class="ico" target="_blank" href="./Candidatos/fajardo.html"><img
                         src="./Resource/Fajardo/Centro_esperanza.jpg" width="130"></a>
+                <br>
+                <input id="votar" class="btn btn-primary" type="button" value="Votar" onclick="javascrip:voto(3);">
             </figure>
             <br>
             <br>
+            <div>
+                 <center><input id="votar" class="btn btn-primary" type="button" value="Ver resultados" onclick="javascrip:estadistica();"></center>
+            </div>
+
+            <div class="graf1">
+                <canvas id="grafica" width="400px" height="400px"></canvas>
+            </div>
+            <div class="graf2">
+                <canvas id="estadistica" width="400px" height="400px"></canvas>
+            </div>
+            <div id="final" witdh="500px">
+                <center><p id="presidente">Felicitaciones al nuevo presidente de Colombia</p>
+                    <canvas id="ganador" width="400px" height="400px"></canvas></center>
+            </div>
+
+
+
+
+            <script src="grafica.js"></script>
         </section>
     </main>
     <footer>

@@ -57,7 +57,7 @@ footer {
 
 .pe {
     width: 35%;
-    height: 550px;
+    height: 570px;
     outline: 5px solid violet;
     padding: 1rem;
     margin-left: 10%;
@@ -67,18 +67,18 @@ footer {
 
 .r {
     width: 35%;
-    height: 550px;
+    height: 570px;
     outline: 5px solid yellow;
     padding: 1rem;
     margin-left: 55%;
     align-content: center;
-    margin-top: -550px;
+    margin-top: -585px;
     text-align: center;
 }
 
 .fe {
     width: 35%;
-    height: 550px;
+    height: 570px;
     outline: 5px solid rgb(247, 87, 95);
     padding: 1rem;
     margin-left: 10%;
@@ -88,12 +88,12 @@ footer {
 
 .se {
     width: 35%;
-    height: 550px;
+    height: 570px;
     outline: 5px solid green;
     padding: 1rem;
     margin-left: 55%;
     align-content: center;
-    margin-top: -550px;
+    margin-top: -585px;
     text-align: center;
 }
 
@@ -110,5 +110,31 @@ footer {
 
 .ico {
     margin-left: 0px;
+}
+#presidente
+{
+    display:none;
+    font-family: 'Segoe UI';
+    width: 400px;
+    font-size: 30px;
+    text-shadow: 2px 4px 4px rgb(0, 0, 0);
+    
+}
+.graf1 {
+    width: 500px;
+}
+
+.graf2 {
+    width: 500px;
+}
+#final
+{
+    padding: 1rem;
+    left: 520px;
+    align-content: center;
+    top: auto;
+    text-align: center; 
+    
+    
 }
 
