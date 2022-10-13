@@ -43,21 +43,21 @@
 
 .t-inicio {
     width: 100%;
-    height: 350px;
+    height: 450px;
     background-color: #1C4149;
     color: white;
 }
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: #1C4149;
     color: white;
 }
 
 .pe {
     width: 35%;
-    height: 570px;
+    height: 630px;
     outline: 5px solid violet;
     padding: 1rem;
     margin-left: 10%;
@@ -66,19 +66,21 @@ footer {
 }
 
 .r {
+
+    position: absolute;
     width: 35%;
-    height: 570px;
+    height: 630px;
     outline: 5px solid yellow;
     padding: 1rem;
     margin-left: 55%;
     align-content: center;
-    margin-top: -585px;
+    margin-top: -640px;
     text-align: center;
 }
 
 .fe {
     width: 35%;
-    height: 570px;
+    height: 620px;
     outline: 5px solid rgb(247, 87, 95);
     padding: 1rem;
     margin-left: 10%;
@@ -88,12 +90,12 @@ footer {
 
 .se {
     width: 35%;
-    height: 570px;
+    height: 620px;
     outline: 5px solid green;
     padding: 1rem;
     margin-left: 55%;
     align-content: center;
-    margin-top: -585px;
+    margin-top: -635px;
     text-align: center;
 }
 
@@ -122,10 +124,15 @@ footer {
 }
 .graf1 {
     width: 500px;
+    padding: 70px;
+    margin-left: -20px;
 }
 
 .graf2 {
     width: 500px;
+    padding: 70px;
+    margin-left: -20px;
+    margin-top: -30px;
 }
 #final
 {
@@ -134,12 +141,34 @@ footer {
     align-content: center;
     top: auto;
     text-align: center; 
-    
+    margin-top: -15%;
     
 }
 
-#votar
-{
-    margin: 10px;
+#votar {
+    margin: 63px;
+}
+
+
+#result {
+    position: relative;
+    margin: 9px;
+    text-align: left;
+   
+}
+
+.res {
+    position: relative;
+    height: 60px;
+    width: 81%;
+    background-color: #1C4149;
+    margin-left: 10%;
+
+}
+
+.parrafo-res {
+   padding: 15px;
+   align-content: center;
+   color: white;
 }
 
